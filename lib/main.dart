@@ -10,8 +10,6 @@ class SudokuGame extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: StartScreen(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: StartScreen());
   }
 }
